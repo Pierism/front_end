@@ -1,0 +1,14 @@
+/* Ensure the body takes the full height of the viewport */
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Wrapper style for the entire app */
+  #wrapper {
+    background-color:#8bbef5; /* Light black color with some transparency */
+    min-height: 100vh; /* Ensure it covers full height of the viewport */
+    padding: 0; /* No padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
